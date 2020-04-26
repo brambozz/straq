@@ -1,3 +1,35 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Straq"
+theme = "hugo-hero-theme"
+
+[params.homepage_meta_tags]
+	meta_description = "Straq is a funk band"
+	meta_og_title = "Straq"
+	meta_og_type = "website"
+	meta_og_url = "https://example.org"
+	meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+	meta_og_description = "Straq is a funk band"
+	# meta_twitter_card = "summary"
+	# meta_twitter_site = "@zerostaticio"
+	# meta_twitter_creator = "@zerostaticio"
+
+[[menu.main]]
+	name = "Gigs"
+	url = "/gigs/"
+	weight = 1
+
+[[menu.main]]
+	name = "About"
+	url = "/about/"
+	weight = 2
+
+[[menu.main]]
+	name = "Listen"
+	url = "/listen/"
+	weight = 3
+
+[[menu.main]]
+	name = "Contact"
+	url = "/contact/"
+	weight = 4
